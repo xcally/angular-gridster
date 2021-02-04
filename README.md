@@ -11,14 +11,14 @@ See <a href="https://rawgit.com/ManifestWebDesign/angular-gridster/master/index.
 ## Installation
 
 ```bash
-  bower install angular-gridster
+  npm i javascript-detect-element-resize @xenialab/angular-gridster
 ```
 
 Then, import the following in your HTML alongside `jQuery` and `angular`:
 ```html
 	<link rel="stylesheet" href="bower_components/angular-gridster/dist/angular-gridster.min.css"/>
-	<script src="bower_components/javascript-detect-element-resize/jquery.resize.js"></script>
-	<script src="bower_components/angular-gridster/dist/angular-gridster.min.js"></script>
+	<script src="node_modules/javascript-detect-element-resize/jquery.resize.js"></script>
+	<script src="node_modules/angular-gridster/dist/angular-gridster.min.js"></script>
 ```
 
 `jquery.resize` is a jQuery plugin needed to check for changes in the gridster size.
