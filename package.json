@@ -1,10 +1,18 @@
 {
-	"name": "angular-gridster",
-	"version": "0.13.14",
+	"name": "@xenialab/angular-gridster",
+	"version": "0.13.16",
 	"description": "This directive gives you gridster behavior",
+	"main": "dist/angular-gridster.min.js",
+	"files": [
+		"dist"
+	],
 	"license": "MIT",
-	"homepage": "http://manifestwebdesign.github.io/angular-gridster",
-	"authors": "https://github.com/ManifestWebDesign/angular-gridster/graphs/contributors",
+	"homepage": "https://github.com/xcally/angular-gridster",
+	"authors": "https://github.com/xcally/angular-gridster/graphs/contributors",
+    "contributors":[
+      "Andrea Bianco <andrea.bianco@xcally.com>",
+      "Vito Macchia <vito.macchia@xcally.com>"
+    ],
 	"devDependencies": {
 		"grunt": "^1.0.1",
 		"grunt-bump": "0.8.0",
